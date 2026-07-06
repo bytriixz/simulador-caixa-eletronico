@@ -95,15 +95,16 @@ while status == 0:
                     status +=-2
                 
             except ValueError:
-                print("Entrada inválida. Digite apenas números")
+                print("Entrada inválida. Digite apenas números.")
                 time.sleep(3)
                 status = 0
             
         elif status ==3:
-            print("Esta função ainda não foi implementada.")
-            print("Retornado ao menu...")
             time.sleep(3)
-            status=0
+            print("---------------")
+            print("FIM DA OPERAÇÃO")
+            status = 4
+            
 
         
         else:
